@@ -14,7 +14,7 @@ header {
     padding: 1rem;
 }
 
-main {
+.index-main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -68,9 +68,32 @@ a:hover {
 
 /* Add to each recipe style.css */
 
+main {
+    padding: 2rem;
+}           
+.recipe-title  {
+    text-align: center;
+    margin-top: 2rem;
+    color: #4a4e69; /* Dark heading color */
+}    
+.recipe-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img {
+    max-width: 100%;
+    width: 30%; /* Adjust the width of the image */
+    height: auto;
+    margin-right: 20px; /* Add padding between the image and ingredients */
+    border-bottom: 2px solid #4a4e69; /* Dark border under the image */
+}
+
 .ingredients {
     list-style: none;
     padding: 0;
+    text-align: left; 
 }
 
 .ingredients li {
@@ -78,7 +101,8 @@ a:hover {
 }
 
 .instructions {
-    width: 60%; /* Adjust the width of the instructions section */
+    width: 60%;
+    margin: 0 auto; /* Center the instructions */
 }
 
 .enjoy {
