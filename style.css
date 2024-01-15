@@ -71,12 +71,12 @@ a:hover {
 main {
     padding: 2rem;
 }           
-.recipe-title  {
+.recipe-title {
     text-align: center;
     margin-top: 2rem;
     color: #4a4e69; /* Dark heading color */
 }    
-.recipe-content {
+.recipe-whole {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
