@@ -65,3 +65,33 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Add to each recipe style.css */
+
+.ingredients {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredients li {
+    margin-bottom: 0.5rem;
+}
+
+.instructions {
+    width: 60%; /* Adjust the width of the instructions section */
+}
+
+.quick-enjoy {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #70a288; /* Greenish button color */
+    color: #f9f7f7;
+    text-decoration: none;
+    border-radius: 4px;
+}
