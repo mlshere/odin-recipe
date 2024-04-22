@@ -1,4 +1,4 @@
-###Odin Project exercise
+Odin Project exercise
 
 HTML CSS exercise 
 I want to achive:
